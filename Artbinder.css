@@ -2,7 +2,40 @@ body{
 	background-color: black;
 }
 
-.navbar{
-	list-style: none;
+.header form{
+	float: right;
 	color: white;
+	background-color: black;
+	border-bottom: solid white 1px;
 }
+
+input-placeholder {
+   color: white;
+}
+
+.navbar{
+	color: white;
+	width: 100%;
+}
+
+/*The reason I am specifying .navbar before teh next section is I assume I
+for future additions of Ul's/Li's*/
+
+.navbar ul{
+	list-style: none;
+}
+
+.navbar li{
+	display: inline-block;
+	width: 16%;
+}
+
+
+/*custom classes*/
+
+.iLb{
+	display: inline-block;
+}
+
+
+
